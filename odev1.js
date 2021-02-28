@@ -13,7 +13,7 @@ const fetchQuote = () => {
     )
 }
 function twit(){
-    document.getElementById("tweet").href = `https://twitter.com/intent/tweet?text=${cst}`
+    document.getElementById("tweet").href = `https://twitter.com/intent/tweet?text=${cst}-${author.innerHTML}`
 }
 
 
